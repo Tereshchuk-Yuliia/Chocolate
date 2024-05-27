@@ -7,6 +7,19 @@ ul {
 a {
     list-style-type: none;
 }
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+/* --------------header */
 .header-logo {
     font-weight: 700;
     font-size: 18px;
@@ -24,4 +37,312 @@ font-style: italic;
     letter-spacing: -0.02em;
     color: #111;
 }
-        
+.header-menu-link:hover,
+.header-menu-link:active,
+.header-menu-link:focus {
+color: #fd9222;
+}
+/* ---------------hero */
+ .hero {
+    background-color: rgba(17, 17, 17, 0.6);
+ }
+
+ .hero-title {
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 1.2;
+    letter-spacing: -0.03em;
+    color: #fff;
+ }
+
+ .hero-btn {
+    font-weight: 600;
+    font-size: 14px;
+    color: #fff;
+ }
+
+ .hero-made-link {
+    font-weight: 600;
+    font-size: 14px;
+    color: #fff;
+ }
+
+ .hero-scroll-link {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.29;
+    letter-spacing: -0.03em;
+    color: #fff;
+ }
+/* -----------benefits */
+ .benefits {
+    background-color: #1e1823;
+ }
+
+ .benefits-list {}
+
+ .benefits-item {}
+
+ .benefits-title-taste {
+    font-weight: 600;
+    font-size: 18px;
+    color: #fff;
+ }
+
+ .benefits-paragraf {
+    font-size: 14px;
+    line-height: 1.28;
+    letter-spacing: -0.02em;
+    color: rgba(255, 255, 255, 0.7);
+}
+/* ---------------taste */
+.taste {}
+
+.taste-title {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 1.17;
+    letter-spacing: -0.03em;
+    text-transform: uppercase;
+    text-align: center;
+    color: #111;
+}
+.title-color{
+color: #fd9222;
+}
+
+.taste-text {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.28571;
+    letter-spacing: -0.02em;
+    text-align: center;
+    color: #111;
+}
+
+.taste-list {}
+
+.taste-imet {}
+
+.taste-image {}
+
+.taste-subtitle {
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 1.28571;
+    letter-spacing: -0.02em;
+    color: #111;
+}
+/* -----------made */
+.made {}
+
+.made-title {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 1.17;
+    letter-spacing: -0.03em;
+    text-transform: uppercase;
+    text-align: center;
+    color: #111;
+}
+
+.title-colored {
+    color: #fd9222;
+}
+
+.made-image {}
+
+.made-subtitle {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 1.33;
+    color: #111;
+}
+
+.made-list {}
+
+.made-item {}
+
+.made-item-text {
+    font-size: 14px;
+    line-height: 1.29;
+    letter-spacing: -0.02em;
+    color: #111;
+}
+/* ---------products */
+.products {}
+
+.products-title {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 1.17;
+    letter-spacing: -0.03em;
+    text-transform: uppercase;
+    text-align: center;
+    color: #111;
+}
+.title-colored {
+    color: #fd9222;
+}
+
+.products-list {}
+
+.products-item {}
+
+.products-image {}
+
+.products-subtitle {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 1.33;
+    letter-spacing: -0.02em;
+    text-transform: uppercase;
+    color: #111;
+}
+
+.products-text {
+    font-size: 12px;
+    line-height: 1.16667;
+    letter-spacing: -0.02em;
+    color: rgba(17, 17, 17, 0.7);
+}
+
+.products-btn {
+    font-weight: 600;
+    font-size: 14px;
+    color: #111;
+}
+/*--------sellers */
+.sellers {}
+
+.sellers-title {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 1.17;
+    letter-spacing: -0.03em;
+    text-transform: uppercase;
+    text-align: center;
+    color: #111;
+}
+
+.title-colored {
+    color: #fd9222;
+}
+
+.sellers-list {}
+
+.sellers-item {}
+
+.sellers-image {}
+
+.sellers-subtitle {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 1.33333;
+    letter-spacing: -0.02em;
+    text-transform: uppercase;
+    color: #111;
+}
+/* -------rewiews */
+.rewiews {}
+
+.rewiews-title {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 1.17;
+    letter-spacing: -0.03em;
+    text-transform: uppercase;
+    text-align: center;
+    color: #111;
+}
+
+.reviews-colored {
+     color: #fd9222;
+}
+
+.rewiews-list {}
+
+.rewiews-item {}
+
+.review-image {}
+
+.reviews-subtitle {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 1.33;
+    text-align: center;
+    color: #111;
+}
+
+.rewiews-text {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.28571;
+    letter-spacing: -0.02em;
+    text-align: center;
+    color: rgba(17, 17, 17, 0.7);
+}
+
+.reviews-btn {
+    font-weight: 600;
+    font-size: 18px;
+    color: #111;
+}
+/* -------footer */
+.footer {
+    background-color: #1e1823;
+}
+
+.footer-text {
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 1.21429;
+    letter-spacing: -0.02em;
+    color: #fff;
+}
+
+.text-colored {
+    color: #fd9222;
+}
+
+.footer-subtitle {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.29;
+    text-align: center;
+    color: #fff;
+}
+
+.footer-social-list {}
+
+.footer-social-item {}
+
+.footer-social-link {}
+
+.footer-address {}
+
+.footer-address-list {}
+
+.footer-address-item {}
+
+.footer-address-link {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.29;
+    letter-spacing: -0.02em;
+    text-align: center;
+    color: #fff;
+}
+
+.footer-navigation {}
+
+.footer-navigation-list {}
+
+.footer-navigation-item {}
+
+.footer-navigation-link {
+    font-size: 14px;
+    line-height: 1.14286;
+    letter-spacing: -0.02em;
+    color: #fff;
+}
